@@ -1,10 +1,22 @@
 @import "../../../values.sass"
 
 .list-wrapper__title 
-	font-weight: 600
 	font-size: 1.3125rem
 	color: $white
 	background-color: $green
 	height: 75px
 	line-height: 75px
 	text-align: center
+	position: relative
+	box-shadow: 2px 2px 5px 1px $black
+
+	&::after
+		content: ''
+		position: absolute
+		width: 30px
+		height: 30px
+		left: calc(50% - 15px)
+		top: 55px
+		background: $green
+		transform: rotate(45deg)
+		// box-shadow: inherit

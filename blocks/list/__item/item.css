@@ -3,4 +3,7 @@
   font-size: 1.2rem; }
 
 .list__item a {
-  color: #26374e; }
+  color: #26374e;
+  transition: 0.2s; }
+  .list__item a:hover {
+    color: #6eb744; }

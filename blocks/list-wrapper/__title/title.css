@@ -1,8 +1,18 @@
 .list-wrapper__title {
-  font-weight: 600;
   font-size: 1.3125rem;
   color: #fff;
   background-color: #6eb744;
   height: 75px;
   line-height: 75px;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5); }
+  .list-wrapper__title::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(50% - 15px);
+    top: 55px;
+    background: #6eb744;
+    transform: rotate(45deg); }
