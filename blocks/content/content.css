@@ -1,0 +1,7 @@
+.content {
+  position: absolute;
+  width: 48%;
+  left: 26%;
+  top: 0;
+  font-family: Raleway, sans-serif;
+  z-index: 10; }

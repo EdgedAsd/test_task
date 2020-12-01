@@ -6,13 +6,245 @@
 
 	<link rel="stylesheet" href="style.css">
 
+	<link rel="stylesheet" href="blocks/main-background/main_background.css">
+	<link rel="stylesheet" href="blocks/main-background/__page-header/page_header.css">
+
+	<link rel="stylesheet" href="blocks/content/content.css">
+	<link rel="stylesheet" href="blocks/content/__title/title.css">
+
+	<link rel="stylesheet" href="blocks/tariff-wrapper/tariff_wrapper.css">
+	<link rel="stylesheet" href="blocks/column/first_column.css">
+	<link rel="stylesheet" href="blocks/column/second_column.css">
+
+	<link rel="stylesheet" href="blocks/list-wrapper/list_wrapper.css">
+	<link rel="stylesheet" href="blocks/list-wrapper/__title/title.css">
+
+	<link rel="stylesheet" href="blocks/list/list.css">
+	<link rel="stylesheet" href="blocks/list/__item/item.css">
+
+	<link rel="stylesheet" href="blocks/economy/economy.css">
+	<link rel="stylesheet" href="blocks/economy/__title/title.css">
+
+	<link rel="stylesheet" href="blocks/description/description.css">
+	<link rel="stylesheet" href="blocks/description/__title/title.css">
+	<link rel="stylesheet" href="blocks/description/__text/text.css">
+
+	<link rel="stylesheet" href="blocks/tariff/tariff.css">
+	<link rel="stylesheet" href="blocks/tariff/__title/title.css">
+	<link rel="stylesheet" href="blocks/tariff/__text/text.css">
+	<link rel="stylesheet" href="blocks/tariff/__text/_string-white/string_white.css">
+
+	<link rel="stylesheet" href="blocks/button/button.css">
+	<link rel="stylesheet" href="blocks/button/_btn-white/btn_white.css">
+
+	<link rel="stylesheet" href="blocks/image/image.css">
+
+	<link rel="stylesheet" href="blocks/promotion/promotion.css">
+	<link rel="stylesheet" href="blocks/promotion/__title/title.css">
+	<link rel="stylesheet" href="blocks/promotion/__text/text.css">
+	<link rel="stylesheet" href="blocks/promotion/__text/_par3/par3.css">
+
+	<link rel="stylesheet" href="blocks/advantages/advantages.css">
+	<link rel="stylesheet" href="blocks/advantage/advantage.css">
+	<link rel="stylesheet" href="blocks/advantage/__title/title.css">
+	<link rel="stylesheet" href="blocks/advantage/__title/_icon/icon.css">
+	<link rel="stylesheet" href="blocks/advantage/__text/text.css">
+	<link rel="stylesheet" href="blocks/advantage/__slogan/slogan.css">
+
+	<link rel="stylesheet" href="blocks/button-wrapper/button-wrapper.css">
+	<link rel="stylesheet" href="blocks/button/_central/central.css">
+
+	<link rel="stylesheet" href="blocks/space/space.css">
+
+	<link rel="stylesheet" href="blocks/main-footer/main_footer.css">
+	<link rel="stylesheet" href="blocks/footer-list-wrapper/footer_list_wrapper.css">
+	<link rel="stylesheet" href="blocks/footer-list-wrapper/__title/title.css">
+	<link rel="stylesheet" href="blocks/footer-list/footer_list.css">
+	<link rel="stylesheet" href="blocks/footer-list-column/footer_list_column.css">
+	<link rel="stylesheet" href="blocks/footer-list-column/__item/item.css">
+
 	<title>Test</title>
 </head>
 <body>
 	
-	<main class="main-background">
+	<div class="main-background">
+		<header class="main-background__page-header"></header>
+		<main class="content">
+			<h1 class="content__title">Разместите&nbsp;вакансию&nbsp;на&nbsp;всех&nbsp;сайтах&nbsp;сразу</h1>
+			<section class="tariff-wrapper">
+				<div class="first-column">
+					<div class="list-wrapper">
+						<h6 class="list-wrapper__title">Вся&nbsp;Россия</h6>
+						<ul class="list">
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+							<li class="list__item"><a href="">Lorem ipsum</a></li>
+						</ul>
+					</div>
+
+					<div class="economy">
+						<h2 class="economy__title">Экономия&nbsp;34%</h2>
+						<div class="description">
+							<h6 class="description__title">Здесь&nbsp;дешевле!</h6>
+							<p class="description__text">Эти и другие параметры размещения вы можете выбрать самостоятельно в конструкторе тарифов.</p>
+							<p class="description__text">Пакет услуг вся Россия пользуется популярностью, выбрав его здесь, вы получите скидку.</p>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="second-column">
+					<div class="tariff">
+						<h2 class="tariff__title">Тариф&nbsp;«Название»</h2>
+						<p class="tariff__text">
+							Опубликуйте объявление в 4&nbsp;регионах и получите <br/>
+							<span class="tariff__text_string-white">максимально возможное количество откликов</span>
+						</p>
+						<button class="button">Выбрать&nbsp;тариф</button>
+						<button class="button _btn-white">Подробности</button>
+					</div>
+
+					<div class="image"></div>
+
+					<div class="promotion">
+						<h6 class="promotion__title">Услуги&nbsp;продвижения</h6>
+						<p class="promotion__text">Эти и другие параметры размещения вы можете выбрать самостоятельно в конструкторе тарифов.</p>
+						<p class="promotion__text">Пакет услуг вся Россия поьзуется популярностью, выбрав его здесь, вы получите скидку.</p>
+						<p class="promotion__text promotion__text_par3">Выберите дополнительные услуги, чтобы ускорить поиск сотрудника</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="advantages">
+				<div class="advantage">
+					<h4 class="advantage__title">
+						<div class="advantage__title_icon advantage__title_icon-coins"></div>
+						Выгодно
+					</h4>
+					<p class="advantage__slogan">Потому, что дешевле</p>
+					<p class="advantage__text">В несколько раз дешевле, чем размещение на каждом работном сайте отдельно</p>
+				</div>
+				<div class="advantage">
+					<h4 class="advantage__title">
+						<div class="advantage__title_icon advantage__title_icon-clock"></div>
+						Быстро
+					</h4>
+					<p class="advantage__slogan">Экономим ваше время</p>
+					<p class="advantage__text">Заполните только один раз. Сокращаем время на заполнение ваканансий более чем в&nbsp;50&nbsp;раз</p>
+				</div>
+				<div class="advantage">
+					<h4 class="advantage__title">
+						<div class="advantage__title_icon advantage__title_icon-like"></div>
+						Удобно
+					</h4>
+					<p class="advantage__slogan">Знаем, что делаем</p>
+					<p class="advantage__text">Вам остается только принимать решение, кого из откликнувшихся соискателей принять на работу</p>
+				</div>
+			</section>
+
+			<section class="button-wrapper">
+				<button class="button button_central">Выбрать&nbsp;тариф</button>
+			</section>
+		</main>
+
+		<section class="space"></section>
+
+		<footer class="main-footer">
+			<div class="footer-list-wrapper">
+				<h2 class="footer-list-wrapper__title">Где именно мы размещаем вашу вакансию</h2>
+				<div class="footer-list">
+					<ul class="footer-list-column">
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+					</ul>
+					<ul class="footer-list-column">
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+					</ul>
+					<ul class="footer-list-column">
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+					</ul>
+					<ul class="footer-list-column">
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+						<li class="footer-list-column__item"><a href="">lorem&nbsp;ipsum</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script>
 		
-	</main>
+		const space = document.getElementsByClassName('space')[0];
+		const content = document.getElementsByClassName('content')[0];
+		const header = document.getElementsByClassName('main-background__page-header')[0];
+
+		space.style.height = (content.offsetHeight - header.offsetHeight + 150) + 'px';
+
+	</script>
 
 </body>
 </html>

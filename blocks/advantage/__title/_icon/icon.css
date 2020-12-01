@@ -1,0 +1,17 @@
+.advantage__title_icon {
+  float: left;
+  height: 100%;
+  width: 52px;
+  margin-right: 15px; }
+
+.advantage__title_icon-coins {
+  background: url("coins.png") center no-repeat;
+  background-size: cover; }
+
+.advantage__title_icon-clock {
+  background: url("clock.png") center no-repeat;
+  background-size: cover; }
+
+.advantage__title_icon-like {
+  background: url("like.png") center no-repeat;
+  background-size: cover; }
