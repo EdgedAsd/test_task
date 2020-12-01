@@ -16,3 +16,22 @@
     top: 55px;
     background: #6eb744;
     transform: rotate(45deg); }
+
+@media (max-width: 768px) {
+  .list-wrapper__title {
+    height: 55px;
+    line-height: 55px; }
+    .list-wrapper__title::after {
+      width: 25px;
+      height: 25px;
+      left: calc(50% - 12px);
+      top: 40px; } }
+@media (max-width: 440px) {
+  .list-wrapper__title {
+    height: 40px;
+    line-height: 40px; }
+    .list-wrapper__title::after {
+      width: 20px;
+      height: 20px;
+      left: calc(50% - 10px);
+      top: 30px; } }

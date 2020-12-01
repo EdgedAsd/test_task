@@ -15,3 +15,7 @@
 .advantage__title_icon-like {
   background: url("like.png") center no-repeat;
   background-size: cover; }
+
+@media (max-width: 640px) {
+  .advantage__title_icon {
+    width: 30px; } }

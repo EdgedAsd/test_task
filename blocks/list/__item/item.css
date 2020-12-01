@@ -7,3 +7,10 @@
   transition: 0.2s; }
   .list__item a:hover {
     color: #6eb744; }
+
+@media (max-width: 1200px) {
+  .list__item {
+    font-size: 1.1rem; } }
+@media (max-width: 440px) {
+  .list__item {
+    margin-bottom: 10px; } }

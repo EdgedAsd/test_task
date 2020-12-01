@@ -20,3 +20,26 @@
 		background: $green
 		transform: rotate(45deg)
 		// box-shadow: inherit
+
+
+@media (max-width: 768px) 
+	.list-wrapper__title
+		height: 55px
+		line-height: 55px
+
+		&::after
+			width: 25px
+			height: 25px
+			left: calc(50% - 12px)
+			top: 40px
+
+@media (max-width: 440px) 
+	.list-wrapper__title 
+		height: 40px
+		line-height: 40px
+
+		&::after
+			width: 20px
+			height: 20px
+			left: calc(50% - 10px)
+			top: 30px

@@ -3,3 +3,10 @@
   color: #6eb744;
   font-weight: 800;
   margin-bottom: 50px; }
+
+@media (max-width: 640px) {
+  .economy__title {
+    margin-bottom: 30px; } }
+@media (max-width: 440px) {
+  .economy__title {
+    margin-bottom: 20px; } }

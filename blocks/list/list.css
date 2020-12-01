@@ -2,3 +2,10 @@
   background-color: #fff;
   padding: 35px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5); }
+
+@media (max-width: 768px) {
+  .list {
+    padding: 20px; } }
+@media (max-width: 440px) {
+  .list {
+    padding: 20px 10px; } }

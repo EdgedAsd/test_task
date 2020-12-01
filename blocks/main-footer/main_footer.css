@@ -9,3 +9,13 @@
   margin-top: -150px;
   padding-top: 150px;
   font-family: Raleway, sans-serif; }
+
+@media (max-width: 768px) {
+  .main-footer {
+    height: 450px; } }
+@media (max-width: 640px) {
+  .main-footer {
+    height: 400px; } }
+@media (max-width: 440px) {
+  .main-footer {
+    height: 320px; } }
